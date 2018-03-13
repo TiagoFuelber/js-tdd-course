@@ -1,0 +1,37 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "TDD com Javascript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoFuelber/js-tdd-course.git"
+  },
+  "keywords": [
+    "TDD",
+    "testes",
+    "Javascript"
+  ],
+  "author": "Tiago Fuelber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TiagoFuelber/js-tdd-course/issues"
+  },
+  "homepage": "https://github.com/TiagoFuelber/js-tdd-course#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "mocha": "^5.0.4",
+    "sinon": "^4.4.2"
+  }
+}
